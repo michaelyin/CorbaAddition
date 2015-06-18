@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="corba-ag" basedir="." default="builddist">
+
+ <property file="build.properties"> </property>
+
+ <!-- The Class-Path for the build is defined here -->
+ <path id="cp" >
+	 <fileset dir="${lib.dir}" includes="*.jar" />
+ </path >
+
+ <!-- The Class-Path for the JUnit Test is defined here.This also includes the compiled classes directory-->
+ <path id="jUnit.cp" >
+	 <fileset dir="${lib.dir}" includes="*.jar" />
+	 <pathelement location="${bin.dir}" />
+ </path >
+
+ <!-- Clean the bin, dist & report folder  -->
+ <target name="clean">
+	 <delete dir="${bin.dir}" />
+	 <delete dir="${dist.dir}" />
+	 <delete dir="${test.reports.dir}" />
+ </target >
+
+ <!-- Create the bin,dist & report folders for fresh build -->
+ <target name="init" depends="clean">
+	 <mkdir dir="${bin.dir}" />
+	 <mkdir dir="${dist.dir}" />
+	 <mkdir dir="${test.reports.dir}" />
+ </target >
+
+ <!-- Compilation of Java Src Files into bin folder -->
+ <target name="compile" depends="init">
+	 <echo>Compiling now... </echo>
+	 <javac destdir="bin" debug="true" srcdir="${src.dir}" includeantruntime="false">
+		 <classpath refid="cp" />
+	 </javac>
+	 <echo>Compilation successful! </echo>
+ </target>
+
+ <!-- Package the build into a JAR File after compilation & testing tasks are completed-->
+ <target name="dist" depends="compile">
+     <copy todir="${dist.dir}/${war.name}/">
+        <fileset dir="web">
+          
+        </fileset>
+     </copy>
+	 <jar destfile="${dist.dir}/${war.name}/addition.jar" basedir="${bin.dir}" excludes="**/*Test.class">
+	 </jar>
+
+	<signjar destDir="${dist.dir}/${war.name}/" alias="corba" keystore="etc/pKeyStore"
+		storepass="corba-ag" preservelastmodified="true">
+		<path>
+			<fileset dir="${dist.dir}" includes="**/*.jar" />
+		</path>
+		<flattenmapper />
+	</signjar>
+	 
+ </target>
+ 
+ <target name="deploy" depends="dist" description="copy the war folder to jboss">
+ 
+    <copy todir="${deploy.dir}/${war.name}">
+       <fileset dir="${dist.dir}/${war.name}">
+       </fileset>
+    </copy>
+ </target>
+
+
+ <!-- 	This task is Used to Unit-Test the Compiled Java Files -->
+ <target name="test">
+	 <junit printsummary="yes" fork="true" haltonfailure="yes">
+		 <classpath refid="jUnit.cp" />
+		 <formatter type="plain" />
+		 <batchtest fork="yes" todir="${test.reports.dir}">
+			 <fileset dir="${src.dir}">
+				 <include name="**/*Test.java" />
+			 </fileset>
+		 </batchtest>
+	 </junit>
+ </target>
+
+</project>
