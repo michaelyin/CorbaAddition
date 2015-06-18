@@ -1,0 +1,28 @@
+#generate key and store it in pKeyStore
+
+keytool -genkey -validity 3650 -keystore pKeyStore -alias corba
+Enter keystore password:  corba
+Keystore password is too short - must be at least 6 characters
+Enter keystore password:  corba-ag
+Re-enter new password: corba-ag
+What is your first and last name?
+  [Unknown]:  Michael Yin
+What is the name of your organizational unit?
+  [Unknown]:  VZ
+What is the name of your organization?
+  [Unknown]:  VZ
+What is the name of your City or Locality?
+  [Unknown]:  DC
+What is the name of your State or Province?
+  [Unknown]:  VA
+What is the two-letter country code for this unit?
+  [Unknown]:  USA
+Is CN=Michael Yin, OU=VZ, O=VZ, L=DC, ST=VA, C=USA correct?
+  [no]:  yes
+
+Enter key password for <corba>
+        (RETURN if same as keystore password):
+
+        
+# sign a jar file
+jarsigner -keystore ../etc/pKeyStore addition.jar corba        
