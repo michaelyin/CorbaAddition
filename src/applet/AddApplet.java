@@ -60,9 +60,11 @@ public class AddApplet extends java.applet.Applet {
 			org.omg.CORBA.Object objRef =   orb.resolve_initial_references("NameService");
 		    NamingContextExt ncRef = NamingContextExtHelper.narrow(objRef);
 		    addobj = (Addition) AdditionHelper.narrow(ncRef.resolve_str("ABC"));
+		    
+		    showStatus("Done Initializing the ORB");
 
 		} catch (Exception e) {
-			System.out.println("HelloApplet exception: " + e);
+			System.out.println("AddApplet exception: " + e);
 			e.printStackTrace(System.out);
 		}
 	}
