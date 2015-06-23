@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="corba-ag" basedir="." default="builddist">
+<project name="corba-ag" basedir="." default="dist">
 
  <property file="build.properties"> </property>
 
@@ -31,11 +31,20 @@
  <!-- Compilation of Java Src Files into bin folder -->
  <target name="compile" depends="init">
 	 <echo>Compiling now... </echo>
-	 <javac destdir="bin" debug="true" srcdir="${src.dir}" includeantruntime="false">
+	 <javac source="1.6" target="1.6" destdir="bin" debug="true" srcdir="${src.dir}" includeantruntime="false">
 		 <classpath refid="cp" />
 	 </javac>
 	 <echo>Compilation successful! </echo>
  </target>
+	
+<target name="create-war" depends="dist">
+	<jar destfile="${basedir}/${war.name}" compress="true">
+	    <fileset dir="${dist.dir}/${war.name}">
+	       <include name="**"/>
+	    </fileset>	
+	 </jar>
+
+</target>
 
  <!-- Package the build into a JAR File after compilation & testing tasks are completed-->
  <target name="dist" depends="compile">
@@ -63,6 +72,7 @@
        <fileset dir="${dist.dir}/${war.name}">
        </fileset>
     </copy>
+ 	<touch file="${deploy.dir}/${war.name}.dodeploy"/>
  </target>
 
 
