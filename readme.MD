@@ -22,3 +22,16 @@ c:/Java/jdk1.8.0_45/bin/appletviewer demo.html -J-Djava.security.policy=applet.p
 Install jboss wildfly 8.2.0 at c:/opt/
 
 open http://localhost:8080/corba
+
+
+
+# VisiBroker usage
+Log: C:\Users\z864423\AppData\Local\Temp     the default log directory
+
+
+
+start vbj -J-Dvbroker.orb.debug=true -J-Dvbroker.orb.logLevel=7 Server
+
+
+gatekeeper –VBJdebug –J-Dvbroker.orb.logger.output=server.log  -J-Dvbroker.orb.debug=true    -J-Dvbroker.orb.logLevel=7 -props gk.prop
+
