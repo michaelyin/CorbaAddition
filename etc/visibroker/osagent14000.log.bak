@@ -1,0 +1,298 @@
+==>> Tue Jul 21 15:48:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 15:48:56 2015, dsaclnt.C, 0, Inf
+isDown() The following client is no longer available
+Host  : 159.67.241.241
+User  : java
+PID   : -1302713064
+CAddr : 159.67.241.241
+VPort : 50878
+CPort : 50878
+
+==>> Tue Jul 21 15:48:56 2015, dsachdlr.C, 0, Inf
+removeClient() Removing client at CAddr <159.67.241.241> CPort <50878>.
+
+==>> Tue Jul 21 15:48:56 2015, dsahdlr.C, 0, Inf
+lostProvider() The following service is no longer available:
+	*_/bank_agent_poa
+
+==>> Tue Jul 21 15:48:56 2015, dsahdlr.C, 0, Inf
+lostProvider() The following service is no longer available:
+	159.67.241.241_*_/bank_agent_poa
+
+==>> Tue Jul 21 15:48:56 2015, dsaclnt.C, 0, Inf
+DSAClient() Deleting the client object for
+Host  : 159.67.241.241
+User  : java
+PID   : -1302713064
+CAddr : 159.67.241.241
+VPort : 50878
+CPort : 50878
+
+==>> Tue Jul 21 15:50:05 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302387913
+CAddr : 159.67.241.241
+VPort : 61106
+CPort : 61106
+
+==>> Tue Jul 21 15:50:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 15:52:05 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302387913
+CAddr : 159.67.241.241
+VPort : 61106
+CPort : 61106
+
+==>> Tue Jul 21 15:52:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 15:52:35 2015, dsahdlr.C, 0, Inf
+inputReady() Got a <MarkSuspect> from Client <159.67.241.241, 55178>.
+
+==>> Tue Jul 21 15:52:35 2015, dsahdlr.C, 0, Wrn
+markSuspect() Provider client entry not found <159.67.241.241, 50878>.
+
+==>> Tue Jul 21 15:52:35 2015, dsaclnt.C, 0, Inf
+getProvider() Received <GetProvider> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+Requesting for the following service:
+	*_/bank_agent_poa
+
+==>> Tue Jul 21 15:52:35 2015, dsaclnt.C, 0, Inf
+getProvider() Replying that service is located at,
+	Address : 159.67.241.241
+	Port    : 51238
+
+==>> Tue Jul 21 15:54:05 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302387913
+CAddr : 159.67.241.241
+VPort : 61106
+CPort : 61106
+
+==>> Tue Jul 21 15:54:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 15:55:28 2015, dsahdlr.C, 0, Inf
+_getClientHandlerAddr() Got a <GetClientHandlerAddr>
+from <159.67.241.241, 52399>.
+
+==>> Tue Jul 21 15:55:28 2015, dsaclnt.C, 0, Inf
+login() Received <Login> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1301915496
+CAddr : 159.67.241.241
+VPort : 52399
+CPort : 52399
+
+==>> Tue Jul 21 15:55:28 2015, dsaclnt.C, 0, Inf
+registerSvc() Received <RegisterSvc> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1301915496
+CAddr : 159.67.241.241
+VPort : 52399
+CPort : 52399
+Registering the following service:
+	*_/bank_agent_poa
+	at location address <159.67.241.241> port <53429>.
+
+==>> Tue Jul 21 15:55:28 2015, dsaclnt.C, 0, Inf
+registerSvc() Received <RegisterSvc> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1301915496
+CAddr : 159.67.241.241
+VPort : 52399
+CPort : 52399
+Registering the following service:
+	159.67.241.241_*_/bank_agent_poa
+	at location address <159.67.241.241> port <53429>.
+
+==>> Tue Jul 21 15:56:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 15:57:17 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1301915496
+CAddr : 159.67.241.241
+VPort : 52399
+CPort : 52399
+
+==>> Tue Jul 21 15:58:04 2015, dsaclnt.C, 0, Inf
+verifyExistence() Checking the client object for
+Host  : 159.67.241.241
+User  : java
+PID   : -1302387913
+CAddr : 159.67.241.241
+VPort : 61106
+CPort : 61106
+
+==>> Tue Jul 21 15:58:04 2015, dsverify.C, 0, Inf
+verify() Sent a <AreYouAlive> to Client at host<159.67.241.241> port <61106>.
+
+==>> Tue Jul 21 15:58:04 2015, dsverify.C, 0, Inf
+receiveMsg() Did not received <AreYouAlive> ack. Peer from host<159.67.241.241> port <61106> is down. Internal return code <-989>.
+
+==>> Tue Jul 21 15:58:04 2015, dsaclnt.C, 0, Inf
+isDown() The following client is no longer available
+Host  : 159.67.241.241
+User  : java
+PID   : -1302387913
+CAddr : 159.67.241.241
+VPort : 61106
+CPort : 61106
+
+==>> Tue Jul 21 15:58:04 2015, dsachdlr.C, 0, Inf
+removeClient() Removing client at CAddr <159.67.241.241> CPort <61106>.
+
+==>> Tue Jul 21 15:58:04 2015, dsahdlr.C, 0, Inf
+lostProvider() The following service is no longer available:
+	*_/bank_agent_poa
+
+==>> Tue Jul 21 15:58:04 2015, dsahdlr.C, 0, Inf
+lostProvider() The following service is no longer available:
+	159.67.241.241_*_/bank_agent_poa
+
+==>> Tue Jul 21 15:58:04 2015, dsaclnt.C, 0, Inf
+DSAClient() Deleting the client object for
+Host  : 159.67.241.241
+User  : java
+PID   : -1302387913
+CAddr : 159.67.241.241
+VPort : 61106
+CPort : 61106
+
+==>> Tue Jul 21 15:58:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 15:59:17 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1301915496
+CAddr : 159.67.241.241
+VPort : 52399
+CPort : 52399
+
+==>> Tue Jul 21 15:59:46 2015, dsahdlr.C, 0, Inf
+inputReady() Got a <MarkSuspect> from Client <159.67.241.241, 55178>.
+
+==>> Tue Jul 21 15:59:46 2015, dsahdlr.C, 0, Wrn
+markSuspect() Provider client entry not found <159.67.241.241, 61106>.
+
+==>> Tue Jul 21 15:59:46 2015, dsaclnt.C, 0, Inf
+getProvider() Received <GetProvider> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+Requesting for the following service:
+	*_/bank_agent_poa
+
+==>> Tue Jul 21 15:59:46 2015, dsaclnt.C, 0, Inf
+getProvider() Replying that service is located at,
+	Address : 159.67.241.241
+	Port    : 53429
+
+==>> Tue Jul 21 16:00:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 16:01:20 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1301915496
+CAddr : 159.67.241.241
+VPort : 52399
+CPort : 52399
+
+==>> Tue Jul 21 16:02:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+
+==>> Tue Jul 21 16:03:20 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1301915496
+CAddr : 159.67.241.241
+VPort : 52399
+CPort : 52399
+
+==>> Tue Jul 21 16:04:19 2015, dsaclnt.C, 0, Inf
+areYouAlive() Received <AreYouAlive> from client at
+Host  : 159.67.241.241
+User  : java
+PID   : -1302854176
+CAddr : 159.67.241.241
+VPort : 55178
+CPort : 55178
+

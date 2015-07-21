@@ -1,0 +1,170 @@
+
+C:\Users\z864423\visibroker\examples\vbroker\gatekeeper\bank_applet>vbj -J-Dvbroker.orb.debug=true -J-Dvbroker.orb.logLevel=7 Server
+
+
+
+====================================
+21 Jul 2015 15:55:28,009 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,IIOP package has been initialized ()
+21 Jul 2015 15:55:28,032 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - QoS package has been initialized ()
+21 Jul 2015 15:55:28,061 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,keepAliveTimer set to 120 seconds ()
+21 Jul 2015 15:55:28,082 [main] Error VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - DSUser: Use UDP port 52399 ()
+21 Jul 2015 15:55:28,085 [AreYouAlive orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Disconnected from OSAgent...will attempt reconnect every 30 seconds ()
+21 Jul 2015 15:55:28,091 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,URLNaming package has been initialized ()
+21 Jul 2015 15:55:28,092 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,Interface Repository package has been initialized ()
+21 Jul 2015 15:55:28,095 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,NameService fail-over activated. ()
+21 Jul 2015 15:55:28,097 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,INS package has been initialized ()
+21 Jul 2015 15:55:28,099 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - IOP package has been initialized ()
+21 Jul 2015 15:55:28,101 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - CONV_FRAME package has been initialized ()
+21 Jul 2015 15:55:28,115 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - rmi/CORBA package has been initialized ()
+21 Jul 2015 15:55:28,118 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,Notification service initialized. ()
+21 Jul 2015 15:55:28,121 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,com.inprise.vbroker.naming.Initialize.init Entered. ()
+21 Jul 2015 15:55:28,121 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,INS package has been initialized ()
+21 Jul 2015 15:55:28,130 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.secure - 159.067.241.241,00011716,Initializing Security Service ()
+21 Jul 2015 15:55:28,147 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.secure - 159.067.241.241,00011716,Default QOP = Server QOP policy = valuetype com.borland.security.csiv2.ServerQoPConfig {
+boolean disable=false,
+short transport=1,
+boolean supportIdentityAssertion=true,
+com.borland.security.csiv2.AccessPolicyManager access_manager=null,
+boolean trustInClient=false,
+java.lang.String[] realms={null},
+short requiredIdentityType=3
+} ()
+21 Jul 2015 15:55:28,148 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.secure - 159.067.241.241,00011716,Default QOP = Client QOP policy = valuetype com.borland.security.csiv2.ClientQoPConfig {
+short transport=2,
+boolean trustInTarget=false
+} ()
+21 Jul 2015 15:55:28,149 [main] Alert VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.secure - 159.067.241.241,00011716,Security Service disabled ()
+21 Jul 2015 15:55:28,156 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,orb.version_info(Borland VisiBroker for Java [08.05.00.C1.03] (JAN 27 2011 14:04:48)
+Borland Software Corporation: http://www.borland.com/
+Local Environment:
+        Java: Version 1.8.0_45 from Oracle Corporation
+        OS:   Windows 7 version 6.1; CPU: amd64) ()
+21 Jul 2015 15:55:28,215 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,ORB.getLocalHost: 159.67.241.241 ()
+21 Jul 2015 15:55:28,217 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.se - 159.067.241.241,00011716,vbroker.se.iiop_tp.scm.iiop_tp.listener. has been started at 159.67.241.241:53429 ()
+21 Jul 2015 15:55:28,621 [main] Error VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.server - Fail to audit the log due to: [null\mf_licensej.dat (The system cannot find the path specified)] ()
+21 Jul 2015 15:55:28,621 [main] Alert VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.server - 159.067.241.241,00011716,LIC=bd2cea0bced2d785e146d721e39ef9fa962cc52f8af9fef89147cc5495e7e9e5bd3ce00bc2899b8bbd ()
+21 Jul 2015 15:55:28,622 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Registering POA /bank_agent_poa ()
+21 Jul 2015 15:55:28,642 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,IOR: IOR[type_id=*,profiles={com.inprise.vbroker.IIOP.ProfileImpl[version=1.2,host=159.67.241.241,port=53429,object_key=ServiceId[service=/bank_agent_poa,id={},key_string=%00PMC%00%00%00%04%00%00%00%10/bank_agent_poa%00%00%00%00%00],components={nothing,OrbTypeComponent{type=1447645952},CodeSetComponent{ForCharData: native codeset=ISO 8859_1 conversion codesets=,ISO UTF-8 ForWcharData: native codeset=ISO UTF-16 conversion codesets=Null}}]}] ()
+21 Jul 2015 15:55:28,646 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,GettingOAD:[true] ()
+21 Jul 2015 15:55:28,647 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,GotOAD:[false] ()
+21 Jul 2015 15:55:28,648 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Adding: *_/bank_agent_poa ()
+21 Jul 2015 15:55:28,649 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - DSUser reconnecting... ()
+21 Jul 2015 15:55:28,649 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - Logging in... ()
+21 Jul 2015 15:55:28,650 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,OSAgent Search Order: [159.67.241.241, 255.255.255.255] ()
+21 Jul 2015 15:55:28,650 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Looking for agent at: DSAddr[hostName=159.67.241.241, portNumber=14000] ()
+21 Jul 2015 15:55:28,655 [Login] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Sending request(0:5): DSAMessage[version=ds.String[string=ORBeline 2.0], messageType=GET_CLIENT_HANDLER_ADDR, messageNumber=-1301915505, messageObject=null, userDataLength=4, userData=[0][0][0][0]] ()
+Borland Enterprise Server License Warning[1017]: License is trial or termed, you have only 17 days left.
+21 Jul 2015 15:55:28,659 [DatagramThread orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Received message: DSAReply[super=DSAMessage[version=ds.String[string=ORBeline 2.0], messageType=REPLY, messageNumber=1437503847, messageObject=DSAddr[hostName=159.67.241.241, portNumber=50176], userDataLength=4, userData=[0][0][0][0]], replyType=REPLY_GET_CLIENT_HANDLER_ADDR, requestNumber=-1301915505, status=SUCCESS] ()
+21 Jul 2015 15:55:28,662 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Agent found at: DSAddr[hostName=159.67.241.241, portNumber=50176] ()
+21 Jul 2015 15:55:28,664 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Sending request(0:5): DSRequest[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REQUEST_MSG, messageNumber=-1301915504, userDataLength=4, userData=[0][0][0][0]], requestType=REQ_LOGIN, request=DSLogin[hostName=ds.String[string=159.67.241.241], loginName=ds.String[string=java], password=ds.String[string=java], userName=ds.String[string=java], pid=-1301915496, machineType=1, verifyPort=52399]] ()
+21 Jul 2015 15:55:28,668 [DatagramThread orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Received message: DSReply[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REPLY_MSG, messageNumber=1437503926, userDataLength=4, userData=[0][0][0][0]], replyType=REPLY_LOGIN, requestNumber=-1301915504, status=SUCCESS, reply=null] ()
+21 Jul 2015 15:55:28,669 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - DSUser reconnection complete ()
+21 Jul 2015 15:55:28,670 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Sending request(0:5): DSRequest[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REQUEST_MSG, messageNumber=-1301915503, userDataLength=4, userData=[0][0][0][0]], requestType=REQ_REGISTER_SERVICE, request=DSProvider[name=DSName[name=ds.String[string=*_/bank_agent_poa], argType=1, serviceType=4, userAttrObj=DSName[name=ds.String[string=IOR:00000000000000022a000000000000010000000000000084000102000000000f3135392e36372e3234312e3234310000d0b500000000002000504d4300000004000000102f62616e6b5f6167656e745f706f61000000000000000003564953030000000500070801ff000000000000000000000800000000564953000000000100000018000000000001000100000001050100010001010900000000], argType=1, serviceType=4, userAttrObj=null]], addr=DSAddr[hostName=159.67.241.241, portNumber=53429], clientAddr=DSAddr[hostName=159.67.241.241, portNumber=52399], agentAddr=DSAddr[hostName=159.67.241.241, portNumber=50176], protocol=1, adminPort=52399]] ()
+21 Jul 2015 15:55:28,671 [DatagramThread orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Received message: DSReply[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REPLY_MSG, messageNumber=1437503927, userDataLength=4, userData=[0][0][0][0]], replyType=REPLY_REGISTER_SERVICE, requestNumber=-1301915503, status=SUCCESS, reply=null] ()
+21 Jul 2015 15:55:28,672 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Adding: 159.67.241.241_*_/bank_agent_poa ()
+21 Jul 2015 15:55:28,672 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Sending request(0:5): DSRequest[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REQUEST_MSG, messageNumber=-1301915502, userDataLength=4, userData=[0][0][0][0]], requestType=REQ_REGISTER_SERVICE, request=DSProvider[name=DSName[name=ds.String[string=159.67.241.241_*_/bank_agent_poa], argType=1, serviceType=4, userAttrObj=DSName[name=ds.String[string=IOR:00000000000000022a000000000000010000000000000084000102000000000f3135392e36372e3234312e3234310000d0b500000000002000504d4300000004000000102f62616e6b5f6167656e745f706f61000000000000000003564953030000000500070801ff000000000000000000000800000000564953000000000100000018000000000001000100000001050100010001010900000000], argType=1, serviceType=4, userAttrObj=null]], addr=DSAddr[hostName=159.67.241.241, portNumber=53429], clientAddr=DSAddr[hostName=159.67.241.241, portNumber=52399], agentAddr=DSAddr[hostName=159.67.241.241, portNumber=50176], protocol=1, adminPort=52399]] ()
+21 Jul 2015 15:55:28,674 [DatagramThread orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Received message: DSReply[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REPLY_MSG, messageNumber=1437503928, userDataLength=4, userData=[0][0][0][0]], replyType=REPLY_REGISTER_SERVICE, requestNumber=-1301915502, status=SUCCESS, reply=null] ()
+21 Jul 2015 15:55:28,674 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.server - Created a POA with name bank_agent_poa on poa / ()
+21 Jul 2015 15:55:28,675 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.server - Created a POA with name account_agent_poa on poa / ()
+21 Jul 2015 15:55:28,681 [main] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,IOR: IOR[type_id=IDL:Bank/AccountManager:1.0,profiles={com.inprise.vbroker.IIOP.ProfileImpl[version=1.2,host=159.67.241.241,port=53429,object_key=ServiceId[service=/bank_agent_poa,id={11 bytes: [B][a][n][k][M][a][n][a][g][e][r]},key_string=%00PMC%00%00%00%04%00%00%00%10/bank_agent_poa%00%00%00%00%0bBankManager],components={nothing,OrbTypeComponent{type=1447645952},CodeSetComponent{ForCharData: native codeset=ISO 8859_1 conversion codesets=,ISO UTF-8 ForWcharData: native codeset=ISO UTF-16 conversion codesets=Null}}]}] ()
+21 Jul 2015 15:55:28,682 [main]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.server - Servant with repId IDL:Bank/AccountManager:1.0 activated on POA IDL:Bank/AccountManager:1.0 ()
+Bank Server is ready.
+21 Jul 2015 15:55:58,087 [AreYouAlive orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Sending request(0:5): DSRequest[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REQUEST_MSG, messageNumber=-1301915501, userDataLength=4, userData=[0][0][0][0]], requestType=REQ_ARE_YOU_ALIVE, request=null] ()
+21 Jul 2015 15:57:17,499 [DatagramThread orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Received message: DSReply[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REPLY_MSG, messageNumber=1437503930, userDataLength=4, userData=[0][0][0][0]], replyType=REPLY_ARE_YOU_ALIVE, requestNumber=-1301915501, status=SUCCESS, reply=null] ()
+
+
+
+
+
+
+
+21 Jul 2015 15:59:17,506 [AreYouAlive orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Sending request(0:5): DSRequest[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REQUEST_MSG, messageNumber=-1301915500, userDataLength=4, userData=[0][0][0][0]], requestType=REQ_ARE_YOU_ALIVE, request=null] ()
+21 Jul 2015 15:59:17,508 [DatagramThread orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Received message: DSReply[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REPLY_MSG, messageNumber=1437503933, userDataLength=4, userData=[0][0][0][0]], replyType=REPLY_ARE_YOU_ALIVE, requestNumber=-1301915500, status=SUCCESS, reply=null] ()
+21 Jul 2015 15:59:46,415 [SocketListener se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.connection - A new connection has arrived com.inprise.vbroker.IIOP.ServerProtocolAdapter[connection=Connection[socket=Socket[addr=/159.67.241.241,port=53445,localport=53429]]] ()
+21 Jul 2015 15:59:46,425 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,Reading 12 bytes at offset 0 from Socket[addr=/159.67.241.241,port=53445,localport=53429] with timeout 0 msecs ...  ()
+21 Jul 2015 15:59:46,426 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,complete ()
+21 Jul 2015 15:59:46,428 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,Reading 142 bytes at offset 12 from Socket[addr=/159.67.241.241,port=53445,localport=53429] with timeout 0 msecs ...  ()
+21 Jul 2015 15:59:46,429 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,complete ()
+21 Jul 2015 15:59:46,437 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,
+
+****** Received Message *****
+47 49 4F 50 01 02 00 00 00 00 00 8E 00 00 00 1C  GIOP............
+03 00 00 00 00 00 00 00 00 00 00 2B 00 50 4D 43  ...........+.PMC
+00 00 00 04 00 00 00 10 2F 62 61 6E 6B 5F 61 67  ......../bank_ag
+65 6E 74 5F 70 6F 61 00 00 00 00 0B 42 61 6E 6B  ent_poa.....Bank
+4D 61 6E 61 67 65 72 00 00 00 00 05 6F 70 65 6E  Manager.....open
+00 6E 70 72 00 00 00 03 00 00 00 01 00 00 00 0C  .npr............
+00 00 00 00 00 01 00 01 00 01 01 09 56 49 53 06  ............VIS.
+00 00 00 05 00 07 08 01 FF 00 00 0A 56 49 53 0C  ............VIS.
+00 00 00 00 79 00 20 20 00 00 00 0E 4A 61 63 6B  ....y.  ....Jack
+20 42 2E 20 51 75 69 63 6B 00                     B. Quick.
+
+ ()
+21 Jul 2015 15:59:46,443 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - received com.inprise.vbroker.GIOP.RequestMessage[version=1.2, message_size=142, request_id=28, response_flags=3, target=com.inprise.vbroker.GIOP.TargetAddress{mode=0, value=union TargetAddress{sequence[0]<octet> {43 bytes: (0)[P][M][C](0)(0)(0)(4)(0)(0)(0)(16)[/][b][a][n][k][_][a][g][e][n][t][_][p][o][a](0)(0)(0)(0)(11)[B][a][n][k][M][a][n][a][g][e][r]}}}, operation=open, moreFragments=false, service_context={[context_id=1,context_data={0 0 0 0 0 1 0 1 0 1 1 9 }][context_id=56495306,context_data={0 7 8 1 -1 }][context_id=5649530c,context_data={}]}] ()
+21 Jul 2015 15:59:46,444 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,ProtocolConnection.receive[Thread[VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a,5,main]]: got a request ()
+21 Jul 2015 15:59:46,444 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,ProtocolConnection.receive[Thread[VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a,5,main]]: I'm the waiting thread and I return now ()
+21 Jul 2015 15:59:46,444 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,ProtocolConnection.receive_request[Thread[VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a,5,main]]: returning request ()
+21 Jul 2015 15:59:46,446 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - Processing new request open ()
+21 Jul 2015 15:59:46,446 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,Reading 12 bytes at offset 0 from Socket[addr=/159.67.241.241,port=53445,localport=53429] with timeout 0 msecs ...  ()
+21 Jul 2015 15:59:46,472 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.server - Request to find poa account_agent_poa on the parent / ()
+21 Jul 2015 15:59:46,473 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.orb - 159.067.241.241,00011716,IOR: IOR[type_id=IDL:Bank/Account:1.0,profiles={com.inprise.vbroker.IIOP.ProfileImpl[version=1.2,host=159.67.241.241,port=53429,object_key=TransientId[poaName=/account_agent_poa,id={4 bytes: (0)(0)(0)(0)},sec=669,usec=845568832,key_string=%00VB%01%00%00%00%13/account_agent_poa%00%20%00%00%00%04%00%00%00%00%00%00%02%9d2f%5b@],components={nothing,OrbTypeComponent{type=1447645952},CodeSetComponent{ForCharData: native codeset=ISO 8859_1 conversion codesets=,ISO UTF-8 ForWcharData: native codeset=ISO UTF-16 conversion codesets=Null}}]}] (
+21 Jul 2015 15:59:46,474 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.server - Servant with repId IDL:Bank/Account:1.0 activated on POA IDL:Bank/Account:1.0 ()
+Account[Jack B. Quick] is created.
+21 Jul 2015 15:59:46,479 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - sending com.inprise.vbroker.GIOP.ReplyMessage[version=1.2, message_size=0, request_id=28, moreFragments=false, service_contexts={}, reply_status=NO_EXCEPTION] ()
+21 Jul 2015 15:59:46,482 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,
+
+****** Sending Message *****
+47 49 4F 50 01 02 00 01 00 00 00 00 00 00 00 1C  GIOP............
+00 00 00 00 00 00 00 00 00 00 00 15 49 44 4C 3A  ............IDL:
+42 61 6E 6B 2F 41 63 63 6F 75 6E 74 3A 31 2E 30  Bank/Account:1.0
+00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 90  ................
+00 01 02 00 00 00 00 0F 31 35 39 2E 36 37 2E 32  ........159.67.2
+34 31 2E 32 34 31 00 00 D0 B5 00 00 00 00 00 2C  41.241.........,
+00 56 42 01 00 00 00 13 2F 61 63 63 6F 75 6E 74  .VB...../account
+5F 61 67 65 6E 74 5F 70 6F 61 00 20 00 00 00 04  _agent_poa. ....
+00 00 00 00 00 00 02 9D 32 66 5B 40 00 00 00 03  ........2f[@....
+56 49 53 03 00 00 00 05 00 07 08 01 FF 00 00 00  VIS.............
+00 00 00 00 00 00 00 08 00 00 00 00 56 49 53 00  ............VIS.
+00 00 00 01 00 00 00 18 00 00 00 00 00 01 00 01  ................
+00 00 00 01 05 01 00 01 00 01 01 09 00 00 00 00  ................
+
+
+ ()
+21 Jul 2015 15:59:46,488 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,Writing 208 bytes at offset 0 to Socket[addr=/159.67.241.241,port=53445,localport=53429] timeout 0 msecs...  ()
+21 Jul 2015 15:59:46,489 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,complete ()
+21 Jul 2015 15:59:46,518 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,complete ()
+21 Jul 2015 15:59:46,519 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,Reading 120 bytes at offset 12 from Socket[addr=/159.67.241.241,port=53445,localport=53429] with timeout 0 msecs ...  ()
+21 Jul 2015 15:59:46,520 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,complete ()
+21 Jul 2015 15:59:46,528 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,
+
+****** Received Message *****
+47 49 4F 50 01 02 00 00 00 00 00 78 00 00 00 20  GIOP.......x...
+03 00 00 00 00 00 00 00 00 00 00 2C 00 56 42 01  ...........,.VB.
+00 00 00 13 2F 61 63 63 6F 75 6E 74 5F 61 67 65  ..../account_age
+6E 74 5F 70 6F 61 00 20 00 00 00 04 00 00 00 00  nt_poa. ........
+00 00 02 9D 32 66 5B 40 00 00 00 08 62 61 6C 61  ....2f[@....bala
+6E 63 65 00 00 00 00 03 00 00 00 01 00 00 00 0C  nce.............
+00 00 00 00 00 01 00 01 00 01 01 09 56 49 53 06  ............VIS.
+00 00 00 05 00 07 08 01 FF 00 00 0A 56 49 53 0C  ............VIS.
+00 00 00 00                                      ....
+
+ ()
+21 Jul 2015 15:59:46,531 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - received com.inprise.vbroker.GIOP.RequestMessage[version=1.2, message_size=120, request_id=32, response_flags=3, target=com.inprise.vbroker.GIOP.TargetAddress{mode=0, value=union TargetAddress{sequence[0]<octet> {44 bytes: (0)[V][B](1)(0)(0)(0)(19)[/][a][c][c][o][u][n][t][_][a][g][e][n][t][_][p][o][a](0)[ ](0)(0)(0)(4)(0)(0)(0)(0)(0)(0)(2)(157)[2][f][[][@]}}}, operation=balance, moreFragments=false, service_context={[context_id=1,context_data={0 0 0 0 0 1 0 1 0 1 1 9 }][context_id=56495306,context_data={0 7 8 1 -1 }][context_id=5649530c,context_data={}]}] ()
+21 Jul 2015 15:59:46,533 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,ProtocolConnection.receive[Thread[VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a,5,main]]: got a request ()
+21 Jul 2015 15:59:46,533 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,ProtocolConnection.receive[Thread[VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a,5,main]]: I'm the waiting thread and I return now ()
+21 Jul 2015 15:59:46,534 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,ProtocolConnection.receive_request[Thread[VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a,5,main]]: returning request ()
+21 Jul 2015 15:59:46,536 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - Processing new request balance ()
+21 Jul 2015 15:59:46,537 [VBJ ThreadPool Worker id=0 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,Reading 12 bytes at offset 0 from Socket[addr=/159.67.241.241,port=53445,localport=53429] with timeout 0 msecs ...  ()
+21 Jul 2015 15:59:46,540 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a]  Info VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - sending com.inprise.vbroker.GIOP.ReplyMessage[version=1.2, message_size=0, request_id=32, moreFragments=false, service_contexts={}, reply_status=NO_EXCEPTION] ()
+21 Jul 2015 15:59:46,541 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,
+
+****** Sending Message *****
+47 49 4F 50 01 02 00 01 00 00 00 00 00 00 00 20  GIOP...........
+00 00 00 00 00 00 00 00 44 1B 12 8F              ........D...
+
+ ()
+21 Jul 2015 15:59:46,542 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,Writing 28 bytes at offset 0 to Socket[addr=/159.67.241.241,port=53445,localport=53429] timeout 0 msecs...  ()
+21 Jul 2015 15:59:46,543 [VBJ ThreadPool Worker id=1 se=iiop_tp scm=iiop_tp orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.cdr - 159.067.241.241,00011716,complete ()
+21 Jul 2015 16:01:17,515 [AreYouAlive orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Sending request(0:5): DSRequest[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REQUEST_MSG, messageNumber=-1301915499, userDataLength=4, userData=[0][0][0][0]], requestType=REQ_ARE_YOU_ALIVE, request=null] ()
+21 Jul 2015 16:01:20,262 [DatagramThread orb=65b3120a] Debug VBJ-Application.orb_com.inprise.vbroker.orb.ORB@65b3120a.vbroker.log.default.filter.agent - 159.067.241.241,00011716,Received message: DSReply[super=DSMessage[version=ds.String[string=ORBeline 2.0], messageType=REPLY_MSG, messageNumber=1437503936, userDataLength=4, userData=[0][0][0][0]], replyType=REPLY_ARE_YOU_ALIVE, requestNumber=-1301915499, status=SUCCESS, reply=null] ()
+

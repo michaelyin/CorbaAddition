@@ -1,0 +1,17 @@
+# commands to test the gatekeeper
+C:\Users\z864423\visibroker\examples\vbroker\gatekeeper\bank_applet>gatekeeper -props gatekeeper.properties
+
+# start osagent
+osagent -v +l d
+
+
+# start orb Server
+vbj -J-Dvbroker.orb.debug=true -J-Dvbroker.orb.logLevel=7 Server    (cannot make the property set up work)
+
+
+# start gatekeeper
+gatekeeper –VBJdebug -J-Dvbroker.orb.debug=true    -J-Dvbroker.orb.logLevel=7 -props gk.prop
+
+
+# start applet
+\visibroker\examples\vbroker\gatekeeper\bank_applet>c:/Java/jdk1.8.0_45/bin/appletviewer ClientApplet.html -J-Djava.security.policy=applet.policy
